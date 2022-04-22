@@ -1,0 +1,27 @@
+title: Azure DevOps Finland
+# email: 
+description: >- # ignore newlines
+  Azure DevOps Finland community site.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: "@devopsazure"
+github_username: "@azuredevopsfinland"
+# Build settings
+markdown: kramdown
+# theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
